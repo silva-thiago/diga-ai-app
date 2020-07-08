@@ -1,11 +1,13 @@
 import Link from 'next/link'
 
 import Layout from '../components/layout'
+import Card from '../components/card'
 
 const Index = () => {
   return (
     <React.Fragment>
       <Layout>
+        <Card>
           <div className={'text-center rounded-lg overflow-hidden'}>
             <img className={'rounded-lg'} src='/img/card-top.jpg' alt='Sunset in the mountains' />
             <div className={'py-4'}>
@@ -21,6 +23,7 @@ const Index = () => {
               <p className={'text-gray-500 text-base pt-4'}>Texto dinâmico vindo da planilha</p>
             </div>
           </div>
+        </Card>
       </Layout>
     </React.Fragment>
   )
