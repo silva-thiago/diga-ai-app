@@ -1,0 +1,25 @@
+{
+  "name": "diga-ai-app",
+  "version": "1.0.0",
+  "description": "Aplicativo para expressar opniao publica",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Thiago Silva \"thiago.silva@imd.ufrn.br\"",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build && next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "next": "^9.4.4",
+    "postcss-import": "^12.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.3",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {}
+}
