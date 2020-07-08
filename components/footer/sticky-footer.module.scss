@@ -1,0 +1,10 @@
+/* Custom page SCSS */
+/* Not required for template or sticky footer method. */
+
+/* .footer {
+  background-color: #f5f5f5;
+} */
+
+.footer > .footerContainer {
+  @apply px-4;
+}
