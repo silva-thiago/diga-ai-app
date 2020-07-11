@@ -4,7 +4,7 @@
 
 Uma versão online deste projeto pode ser encontrada em: https://palpite-box.tuliofaria.dev/.
 
-![Preview](https://github.com/silva-thiago/diga-ai-app)
+![Preview](https://github.com/silva-thiago/diga-ai-app/../../../../public/img/diga-ai-index.png)
 
 ## Início
 
@@ -17,12 +17,14 @@ Você precisa do NodeJS e do NPM ou Yarn instalado em sua máquina.
 Usando NPM:
 
 ```
+$ npm install
 $ npm run dev
 ```
 
 Ou com Yarn:
 
 ```
+$ yarn 
 $ yarn run dev
 
 ```
