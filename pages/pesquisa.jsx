@@ -75,7 +75,7 @@ const Pesquisa = () => {
                     return (
                       <span className={'block w-1/6 tracking-wide text-center text-gray-700 text-xs font-bold mb-2'} key={id} htmlFor='grid-grade'>
                         {nota}<br />
-                        <input type='radio' name='Nota' value={form.nota} onChange={onChange} />
+                        <input type='radio' name='Nota' value={nota} onChange={onChange} />
                       </span>
                     )
                   })}
