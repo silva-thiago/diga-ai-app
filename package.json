@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build && next export",
+    "build": "next build && next export && postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "postcss-import": "^12.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.0.4",
     "sass": "^1.26.10",
     "swr": "^0.2.3",
     "tailwindcss": "^1.4.6"
