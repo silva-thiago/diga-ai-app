@@ -2,9 +2,9 @@
 
 [![HitCount](http://hits.dwyl.com/silva-thiago/diga-ai-app.svg)](http://hits.dwyl.com/silva-thiago/diga-ai-app)
 
-Uma versão online deste projeto pode ser encontrada em: https://palpite-box.tuliofaria.dev/.
+Uma versão online deste projeto pode ser encontrada em: link em breve
 
-![Preview](https://github.com/silva-thiago/diga-ai-app/../../../../public/img/diga-ai-index.png)
+![Preview](https://github.com/silva-thiago/diga-ai-app/blob/development/public/img/diga-ai-index.png)
 
 ## Início
 
@@ -26,7 +26,6 @@ Ou com Yarn:
 ```
 $ yarn 
 $ yarn run dev
-
 ```
 
 ## Layout:
@@ -52,7 +51,7 @@ SHEET_DOC_ID=id da planilha
 
 ## Autor:
 
-* **Thiago Silva** - [LinkedIn](https://www.linkedin.com/in/tjlsilva/)
+* **Thiago Silva** - [LinkedIn](https://www.linkedin.com/in/tjlsilva/) | [Home Page](https://dev.thiagosilva.cc/)
 
 ## Licença
 
