@@ -24,11 +24,14 @@ const Header = () => {
         <div className={'text-xl font-black w-full block flex-grow lg:flex lg:items-center lg:w-auto'}>
           <div className={'text-sm lg:flex-grow'}>
             <div>
-              <Link href='/sobre'>
-                <a className={'text-gray-900 hover:text-red-600 block lg:inline-block lg:mt-0 mt-4 mr-4'}>Sobre</a>
+              <Link href='/perfil'>
+                <a className={'text-gray-900 hover:text-red-600 block lg:inline-block lg:mt-0 mt-4 mr-4'}>Perfil</a>
               </Link>
               <Link href='/pesquisa'>
                 <a className={'text-gray-900 hover:text-red-600 block lg:inline-block lg:mt-0 mt-4 mr-4'}>Pesquisa</a>
+              </Link>
+              <Link href='/sobre'>
+                <a className={'text-gray-900 hover:text-red-600 block lg:inline-block lg:mt-0 mt-4 mr-4'}>Sobre</a>
               </Link>
               <Link href='/contato'>
                 <a className={'text-gray-900 hover:text-red-600 block lg:inline-block lg:mt-0 mt-4 mr-4'}>Contato</a>
@@ -36,7 +39,7 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <Link href='/perfil'>
+            <Link href='/entrar'>
               <button className={'font-bold text-sm text-red-600 bg-gray-100 border border-red-600 shadow hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:shadow-outline inline-block leading-none rounded-full px-4 py-2 mt-4 lg:mt-0'}>
                 <a>Entrar</a>
               </button>

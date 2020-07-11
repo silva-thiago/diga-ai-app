@@ -1,15 +1,15 @@
 import Layout from '../components/layout'
 
-const Perfil = () => {
+const Entrar = () => {
   return (
     <React.Fragment>
       <Layout>
         <div className='text-center'>
-          <p>Perfil</p>
+          <p>Entrar</p>
         </div>
       </Layout>
     </React.Fragment>
   )
 }
 
-export default Perfil
+export default Entrar
