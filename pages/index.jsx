@@ -7,7 +7,7 @@ import Card from '../components/card'
 const fetcher = (...args) => fetch(...args).then(res => res.json())
 
 const Index = () => {
-  const { data, error } = useSWR('/api/get-promo', fetcher)
+  const { data, error } = useSWR('/api/getting-data', fetcher)
 
   return (
     <React.Fragment>
