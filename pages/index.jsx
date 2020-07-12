@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import useSWR from 'swr'
 
+import PageTitle from '../components'
 import Layout from '../components/layout'
 import Card from '../components/card'
 
@@ -11,6 +12,7 @@ const Index = () => {
 
   return (
     <React.Fragment>
+      <PageTitle title='' />
       <Layout>
         <Card>
           <div className={'text-center rounded-lg overflow-hidden'}>
