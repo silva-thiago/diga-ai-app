@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { useState } from 'react'
+import Link from 'next/link'
 
 import PageTitle from '../components'
 import Layout from '../components/layout'
@@ -100,25 +100,26 @@ const Pesquisa = () => {
               </div>
             </div>
           </span>}
-          {success && <div className='text-center'>
-            <div className='items-center bg-red-600 text-white text-2xl font-bold rounded-lg px-4 py-16'>
-              <p>Obrigado por deixar sua opnião!</p>
+          {success && <span>
+            <div className='text-center'>
+              <div className='items-center bg-red-600 text-white text-2xl font-bold rounded-lg px-4 py-16'>
+                <p>Obrigado por deixar sua opnião!</p>
+              </div>
+              {
+                feedback.showCoupon && <div className='items-center bg-transparent text-red-600 border border-red-600 rounded-lg px-4 py-3 mt-4'>
+                  Seu cupom:<br />
+                  <span className='text-2xl font-bold'>{feedback.Cupom}</span>
+                </div>
+              }
+              {
+                feedback.showCoupon && <div className='items-center bg-transparent text-red-600 border border-red-600 rounded-lg px-4 py-3 mt-4'>
+                  Promoção ativa:<br />
+                  <span className='font-bold'>{feedback.Promo}</span><br />
+                  <p className='text-base opacity-75 mt-4'>Tire uma foto ou print desta tela e apresente ao caixa.</p>
+                </div>
+              }
             </div>
-            {
-              feedback.showCoupon && <div className='items-center bg-transparent text-red-600 border border-red-600 rounded-lg px-4 py-3 mt-4'>
-                Seu cupom:<br />
-                <span className='text-2xl font-bold'>{feedback.Cupom}</span>
-              </div>
-            }
-            {
-              feedback.showCoupon && <div className='items-center bg-transparent text-red-600 border border-red-600 rounded-lg px-4 py-3 mt-4'>
-                Promoção ativa:<br />
-                <span className='font-bold'>{feedback.Promo}</span><br />
-                <p className='text-base opacity-75 mt-4'>Tire uma foto ou print desta tela e apresente ao caixa.</p>
-              </div>
-            }
-          </div>
-          }
+          </span>}
         </Form>
       </Layout>
     </React.Fragment>
