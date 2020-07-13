@@ -16,7 +16,7 @@ const Index = () => {
       <Layout>
         <Card>
           <div className={'text-center rounded-lg overflow-hidden'}>
-            <img className={'rounded-lg'} src='/img/megafone.png' alt='Sunset in the mountains' />
+            <img className={'rounded-lg'} src='/img/megafone.png' alt='Imagem de um megafone' />
             <div className={'py-4'}>
               <p className={'text-gray-900 text-lg'}>Nosso estabelecimento constantemente busca atender melhor seus clientes. Por isso, estamos sempre abertos a ouvir o que você pensa.</p>
             </div>
