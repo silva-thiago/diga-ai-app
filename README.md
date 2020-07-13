@@ -2,7 +2,7 @@
 
 [![HitCount](http://hits.dwyl.com/silva-thiago/diga-ai-app.svg)](http://hits.dwyl.com/silva-thiago/diga-ai-app)
 
-Uma versão online deste projeto pode ser encontrada em: [diga-ai.vercel.app](https://diga-ai.vercel.app/)
+Uma versão online deste projeto pode ser encontrada em: [digaai.vercel.app](https://digaai.vercel.app/)
 
 ![Preview](https://github.com/silva-thiago/diga-ai-app/blob/development/public/img/diga-ai-index.png)
 
