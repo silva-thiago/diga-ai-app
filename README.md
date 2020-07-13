@@ -2,7 +2,7 @@
 
 [![HitCount](http://hits.dwyl.com/silva-thiago/diga-ai-app.svg)](http://hits.dwyl.com/silva-thiago/diga-ai-app)
 
-Uma versão online deste projeto pode ser encontrada em: link em breve
+Uma versão online deste projeto pode ser encontrada em: [diga-ai.vercel.app](https://diga-ai.vercel.app/)
 
 ![Preview](https://github.com/silva-thiago/diga-ai-app/blob/development/public/img/diga-ai-index.png)
 
@@ -37,10 +37,11 @@ Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https
 Este projeto pode ser colocado em produção utilizando o Vercel. É necessário criar as variáveis de ambiente para configurar o acesso as planilhas do Google:
 
 ```
-SHEET_CLIENT_EMAIL=client email do service credential
-SHEET_PRIVATE_KEY=private key do service credential - lembrar de substituir \n por quebras de linha e de codificar em base 64
-SHEET_DOC_ID=id da planilha
+SHEET_DOC_ID=<ID da planilha>
+SHEET_PRIVATE_KEY=<Chave privada da planilha>
+SHEET_CLIENT_EMAIL=<Cliente de email da planilha>
 ```
+> É necessário substituir todos os '\n' por 'quebra de linha' e codificar a PRIVATE_KEY em base 64
 
 ## Construído com:
 
