@@ -88,7 +88,7 @@ const Pesquisa = () => {
             <div className={'flex flex-wrap -mx-3 mb-6'}>
               <div className={'w-full px-3'}>
                 <div className={'flex flex-row-reverse space-x-4 space-x-reverse'}>
-                  <button className={'text-white font-bold bg-red-600 hover:bg-red-700 rounded-full focus:outline-none focus:shadow-outline py-2 px-4'} type='submit' onClick={sendData}>
+                  <button className={'text-white font-bold bg-red-600 hover:bg-red-700 rounded-full focus:outline-none focus:shadow-outline py-2 px-4'} type='button' onClick={sendData}>
                     ENVIAR
                   </button>
                   <Link href='/'>
