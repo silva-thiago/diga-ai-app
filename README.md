@@ -41,7 +41,7 @@ SHEET_DOC_ID=<ID da planilha>
 SHEET_PRIVATE_KEY=<Chave privada da planilha>
 SHEET_CLIENT_EMAIL=<Cliente de email da planilha>
 ```
-> É necessário substituir todos os '\n' por 'quebra de linha' e codificar a PRIVATE_KEY em base 64
+> IMPORTANTE: substituir todos os '\n' por 'quebra de linha' da PRIVATE_KEY e codificá-la em base 64
 
 ## Construído com:
 
