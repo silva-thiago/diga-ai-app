@@ -12,6 +12,7 @@ const generateCoupon = () => {
 
 export default async (req, res) => {
   try {
+    res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate=60')
     await doc.useServiceAccountAuth({
       private_key: fromBase64(process.env.SHEET_PRIVATE_KEY),
       client_email: process.env.SHEET_CLIENT_EMAIL
