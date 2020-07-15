@@ -1,11 +1,9 @@
 /* Custom page SCSS */
 
 .wrapperMain {
-  @apply flex-shrink-0;
-  @apply bg-gray-100;
+  @apply flex-shrink-0 bg-gray-100 overflow-x-hidden overflow-y-hidden
 }
 
 .wrapperContainer {
-  @apply py-16;
-  @apply px-4;
+  @apply py-16 px-4
 }
