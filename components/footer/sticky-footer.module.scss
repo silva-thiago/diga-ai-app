@@ -1,6 +1,5 @@
 /* Custom page SCSS */
-/* Not required for template or sticky footer method. */
 
 .wrapperFooter {
-  width: 100%;
+  @apply w-full
 }
