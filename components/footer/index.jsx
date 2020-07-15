@@ -24,10 +24,10 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className={'flex inline mx-auto'}>
-            <img src='/img/logotipo-semana-fsm.svg' alt='Logotipo Semana FSM' className={'h-auto w-32 mx-4 mt-2'} />
-            <img src='/img/logotipo-devpleno.svg' alt='Logotipo Devpleno' className={'h-auto w-32 mx-4 mt-2'} />
-          </div>
+          {/* <div className={'flex inline mx-auto'}>
+            <img src='/img/logotipo.svg' alt='' className={'h-auto w-32 mx-4 mt-2'} />
+            <img src='/img/logotipo.svg' alt='' className={'h-auto w-32 mx-4 mt-2'} />
+          </div> */}
         </div>
       </div>
     </React.Fragment>
